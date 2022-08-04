@@ -1,0 +1,12 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "This is build phase"
+  build:
+    commands:
+      - echo "Deployed to S3"
+artifacts:
+  files:
+    - '**/*'
